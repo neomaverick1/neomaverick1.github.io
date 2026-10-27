@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HourOne Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+/* Layout: one calm reading column, the clock-face ring as the only mark */
+:root{
+  --bg:#f6f8fb; --fg:#1b2230; --muted:#5b6678; --rule:#dde3ec; --accent:#2f7fe0; --bell:#d88a1c;
+  --display:"Poppins",system-ui,sans-serif; --body:"Source Serif 4",Georgia,serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0e1116;--fg:#e8edf4;--muted:#9aa6b8;--rule:#232a35;--accent:#5aa9ff;--bell:#ffb547;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e1116;--fg:#e8edf4;--muted:#9aa6b8;--rule:#232a35;--accent:#5aa9ff;--bell:#ffb547;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.65}
+main{max-width:40rem;margin:0 auto;padding-inline:20px;padding-block:48px 72px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:8px}
+.ring{width:44px;height:44px;flex:none}
+h1{font-family:var(--display);font-weight:700;font-size:1.9rem;line-height:1.2;margin:0;text-wrap:balance}
+.date{color:var(--muted);font-size:.95rem;margin:4px 0 32px}
+h2{font-family:var(--display);font-weight:600;font-size:1.15rem;margin:36px 0 8px;text-wrap:balance}
+p,li{margin:0 0 12px}
+ul{padding-left:1.2rem;margin:0 0 12px}
+.lead{font-size:1.1rem;border-left:3px solid var(--bell);padding-left:14px}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+.tw{overflow-x:auto}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-family:var(--display);font-weight:600;font-size:.8rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+td:first-child{white-space:nowrap;font-weight:600}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:48px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--rule);padding-top:16px}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg class="ring" viewBox="24 24 60 60" aria-hidden="true">
+      <circle cx="54" cy="56" r="21.5" fill="none" stroke="var(--accent)" stroke-width="5"/>
+      <path d="M51.5,42h5v15.2l9.2,5.4 -2.5,4.3L51.5,60z" fill="var(--fg)"/>
+      <path d="M30,40l9,-8.5 3.4,3.6 -9,8.5zM78,40l-9,-8.5 -3.4,3.6 9,8.5z" fill="var(--bell)"/>
+    </svg>
+    <h1>HourOne Privacy Policy</h1>
+  </header>
+  <p class="date">Effective October 27, 2026</p>
+
+  <p class="lead">HourOne is an alarm clock. The developer runs no server and no accounts, and never sells your information. Your alarms and progress stay on your phone. The few times anything leaves the phone are listed below: the weather forecast, ads from Google, and purchases through Google Play.</p>
+
+  <h2>What stays on your phone</h2>
+  <p>Your alarms, wake-up checks, timer and stopwatch settings, sounds, colors, fonts, clock faces, points, level, streaks, achievements, game scores, your phoenix, and any time capsule messages and voice notes are saved only in the app's private storage on your device. The developer never receives them. Uninstalling the app deletes them.</p>
+  <p>Android may include this data in your phone's own backup to your Google account, which Google encrypts and controls. If you make a HourOne backup file in Settings, it is encrypted and saved only where you choose.</p>
+
+  <h2>What leaves your phone</h2>
+  <div class="tw"><table>
+    <thead><tr><th>What</th><th>Where it goes and why</th></tr></thead>
+    <tbody>
+      <tr><td>Approximate location</td><td>For the weather on the morning screen. Your location is rounded to about 10 km on the phone, then sent to MET Norway (api.met.no, the Norwegian Meteorological Institute's free weather service, no account) to get the day's forecast, at most about once a morning. HourOne keeps only the rounded position, on the phone. Weather data from MET Norway is licensed under CC BY 4.0.</td></tr>
+      <tr><td>Ads</td><td>On the free, Silver and Gold tiers, a small banner from Google AdMob runs along the top of the Alarms page and the Games list. Platinum and higher members, and anyone who buys No ads in the Store, never see a banner. When a game ends, anyone can also choose to watch a short ad to continue the run; it only plays if you tap it. Ads never show on the ringing alarm, the morning screen or inside a game. Google may collect your device's advertising ID, IP address and how you interact with the ad, to show and measure ads. Where the law requires it, Google's consent form asks first, and you can change your choice in Settings under Privacy choices for ads. See <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from apps that use its services</a>.</td></tr>
+      <tr><td>Purchases</td><td>Memberships, 30-day passes and point packs are bought through Google Play. Google handles the payment; HourOne never sees your card or account details, only a confirmation of what you bought so it can unlock it. See the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</td></tr>
+      <tr><td>Messages you send</td><td>If you send feedback or report a problem from the app, it opens your own email app with the message, the app version and your phone model filled in. Nothing is sent unless you send that email yourself.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Permissions and why they are used</h2>
+  <div class="tw"><table>
+    <thead><tr><th>Permission</th><th>Used for</th></tr></thead>
+    <tbody>
+      <tr><td>Location (approximate)</td><td>The morning weather, as above. Never precise location, never in the background.</td></tr>
+      <tr><td>Calendar</td><td>Showing your first event of the day on the morning screen. Read on the phone only; never changed, never sent.</td></tr>
+      <tr><td>Microphone</td><td>The optional "Say the phrase back" wake-up check, where your phone's speech service (on most phones, Google's) turns what you say into text and HourOne keeps none of it, and the optional voice note in a time capsule, which is recorded and saved only on your phone.</td></tr>
+      <tr><td>Motion sensors</td><td>The shake, walk and flip wake-up checks, and smart wake noticing when you stir. Nothing is saved or sent.</td></tr>
+      <tr><td>Exact alarms, full-screen alerts, notifications</td><td>Ringing your alarm on the minute and showing it over the lock screen; bedtime and timer reminders.</td></tr>
+      <tr><td>Display over other apps</td><td>The optional floating stopwatch and timer.</td></tr>
+      <tr><td>Music and audio files</td><td>Letting you pick a song from your phone as an alarm sound. Files are only played, never uploaded.</td></tr>
+      <tr><td>Run at startup, keep awake, vibrate, foreground services</td><td>Restoring alarms after a restart, keeping the alarm, sleep sounds, sunrise light and the stopwatch and timer running while the screen is off.</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Morning coach</h2>
+  <p>On phones that have Google's Gemini Nano, a short morning note is written by the model on the phone itself. Nothing you see in it, and nothing it is written from, leaves the phone.</p>
+
+  <h2>Analytics and tracking</h2>
+  <p>HourOne contains no analytics and no tracking tools of its own. The only third-party service that collects data is Google AdMob, which serves the ads above. If anything changes, this policy will be updated first and the Play Store listing will say so.</p>
+
+  <h2>Children</h2>
+  <p>HourOne is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Your choices</h2>
+  <ul>
+    <li>Turn location, calendar or microphone off in your phone's settings; the features that need them simply hide or skip.</li>
+    <li>Change your ad consent in Settings under Privacy choices for ads, or reset your advertising ID in your phone's Google settings.</li>
+    <li>Delete everything by uninstalling HourOne.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy can be sent to the developer email address shown on HourOne's Google Play Store page.</p>
+
+  <footer>HourOne · Alarm clock for Android</footer>
+</main>
+</body>
+</html>
